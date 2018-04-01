@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title><%= current_page.data.title || "HTMLBOY" %></title>
+    <%= stylesheet_link_tag "site" %>
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div class="main-header">
+    <a href="/" class="title">HTMLBOY</a>
+    <span>Javier Usobiaga, web designer & front-end developer.</span>
+  </div>
+  <h1><%= current_page.data.title %></h1>
+  <p class="entry-date"><%= current_page.data.date.strftime('%B %e, %Y') %></p>
+  <%= yield %>
+
+  <div class="main-footer">
+    Wanna say hi? <br>Follow me (<a href="http://twitter.com/htmlboy">@htmlboy</a>), write me at <a href="mailto:javier@swwweet.com">javier@swwweet.com</a> or visit&nbsp;<a href="http://Swwweet.com">Swwweet.com</a>.
+  </div>
+
+  <script type="text/javascript" src="//use.typekit.net/pyr7yya.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</body>
+</html>
