@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__intro {
+    @media (min-width: 60em) {
+      margin-top: -10%;
+      font-size: 1.2rem;
+    }
+  }
+  &__hi {
+    padding-left: 0.3em;
+  }
+  &__title {
+    display: block;
+    font-size: 1.6em;
+    margin-top: -0.3em;
+    line-height: 1.5;
+    font-family: "lft-etica", sans-serif;
+    @media (min-width: 60em) {
+      font-size: 2em;
+    }
+  }
+}
