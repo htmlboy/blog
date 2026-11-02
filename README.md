@@ -14,7 +14,7 @@ GitHub Pages deploys from `master`, `/ (root)`. Commits to this branch trigger p
 
 - `index.html`: personal introduction.
 - `stylesheets/site.css`: design and font families.
-- Adobe Typekit kit `pyr7yya`: typography.
+- `fonts/`: self-hosted Rubik 800 (title) and Bitter 500 (body), WOFF2, with licenses and source notes. No Adobe Typekit or Google Fonts connections are needed.
 - `images/`: site assets.
 
 The blog has been retired and its published files removed. Historical articles remain recoverable through Git history. The legacy Middleman project is also recoverable through Git history; no archive branch is needed. Use `master` for all future website edits.
