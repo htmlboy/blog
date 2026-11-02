@@ -17,6 +17,6 @@ GitHub Pages deploys from `master`, `/ (root)`. Commits to this branch trigger p
 - Adobe Typekit kit `pyr7yya`: typography.
 - `images/`: site assets.
 
-The blog has been retired and its published files removed. Historical articles remain recoverable through Git history. The legacy Middleman project is also recoverable through Git history; no archive branch is needed. `gh-pages` is an old snapshot and is not deployed. Use `master` for all future website edits.
+The blog has been retired and its published files removed. Historical articles remain recoverable through Git history. The legacy Middleman project is also recoverable through Git history; no archive branch is needed. Use `master` for all future website edits.
 
 For an optional local preview, run `python3 -m http.server 8000` from the repository root and open http://localhost:8000.
